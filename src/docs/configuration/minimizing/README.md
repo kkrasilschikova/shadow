@@ -9,7 +9,7 @@ shadowJar {
 }
 ```
 
-A dependency can be excluded from the minimization process thereby forcing it's inclusion the shadow JAR.
+A dependency can be excluded from the minimization process thereby forcing its inclusion in the shadow JAR.
 This is useful when the dependency analyzer cannot find the usage of a class programmatically, for example if the class
 is loaded dynamically via `Class.forName(String)`.
 
@@ -22,7 +22,7 @@ shadowJar {
 }
 ```
 
-> Dependencies scoped as `api` will automatically excluded from minimization and used as "entry points" on minimization.
+> Dependencies scoped as `api` will automatically be excluded from minimization and used as "entry points" on minimization.
 
 Similar to dependencies, projects can also be excluded.
 
