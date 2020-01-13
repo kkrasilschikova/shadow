@@ -25,7 +25,7 @@ apply plugin: 'java'
 
 Shadow is a reactive plugin.
 This means that applying Shadow by itself will perform no configuration on your project.
-Instead, Shadow _reacts_
+Instead, Shadow _reacts_.
 This means, that for most users, the `java` or `groovy` plugins must be _explicitly_ applied
 to have the desired effect.
 
@@ -54,7 +54,7 @@ following behavior:
 
 ## Shadowing Gradle Plugins
 
-Shadow ships with a companion task that can be used to automatically discover dependency packages and configure 
+Shadow is shipped with a companion task that can be used to automatically discover dependency packages and configure 
 them for relocation. This is useful in projects if you want to relocate all dependencies.
 
 For more details see the section [Using Shadow to Package Gradle Plugins](/plugins/)
