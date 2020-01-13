@@ -12,7 +12,7 @@ shadowJar {
 ```
 
 The above code sample would configure the `shadowJar` task to merge dependencies from only the `compile` configuration.
-This means any dependency declared in the `runtime` configuration would be **not** be included in the final JAR.
+This means any dependency declared in the `runtime` configuration would **not** be included in the final JAR.
 
 > Note the literal use of `project.configurations` when setting the `configurations` attribute of a
 [`ShadowJar`](http://imperceptiblethoughts.com/shadow/api/com/github/jengelman/gradle/plugins/shadow/tasks/ShadowJar.html) task.
@@ -35,7 +35,7 @@ Individual dependencies can be filtered from the final JAR by using the `depende
 Dependency filtering does **not** apply to transitive dependencies.
 That is, excluding a dependency does not exclude any of its dependencies from the final JAR.
 
-The `dependency` blocks provides a number of methods for resolving dependencies using the notations familiar from
+The `dependency` block provides a number of methods for resolving dependencies using the notations familiar from
 Gradle's `configurations` block.
 
 ```groovy
